@@ -93,8 +93,8 @@ $(() => {
         .then(function(data) {
         // Handle the API response data here
     const employees =data;
-   // alert(JSON.stringify(employees));
-   // gridBindData(employees);
+   
+
 
    $('#gridContainer').dxDataGrid({
     dataSource: employees,
